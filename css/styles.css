@@ -1,0 +1,164 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+}
+body{
+  font-family: "Poppins", sans-serif;
+}
+header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 15vh;
+}
+
+nav ul {
+  display: flex;
+  gap: 2rem;
+}
+
+li{
+  list-style: none;
+  font-size: large;
+}
+a{
+
+  text-decoration: none;
+  color: black;
+}
+
+section{
+  margin-bottom: 30px;
+  
+}
+#hero{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#hero >div{
+  margin: 20px;
+}
+#hero #left > img{
+  object-fit: cover;
+  height: 350px;
+  width: 350px;
+  border-radius: 50%;
+}
+
+#right{
+  font-size: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#right > p{
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+#right > h1{
+  font-size: 35px;
+  padding-bottom: 10px;
+}
+#right > h4{
+  font-size: 25px;
+  padding-bottom: 15px;
+  color: rgb(71, 71, 71);
+}
+
+#right > div{
+  font-size: 15px;
+  margin: 20px 0;
+}
+#right > div > span{
+  padding: 15px;
+  margin-right: 25px;
+  border: 1px black solid;
+  border-radius: 25px;
+  font-weight: bold;
+}
+#right > div > span + span{
+  color: white;
+  background: black;
+}
+#right > div > span + span a{
+  color: white;
+}
+#first-icon{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.icon{
+  height: 30px;
+  width: 30px;
+  margin: 0 20px 0 20px;
+}
+
+
+#about-me{
+  text-align: center;
+  padding: 30px;
+  font-size: 30px;
+  margin: 45px 0 25px 0 ;
+}
+
+#about-me p{
+  font-size: 15px;
+}
+#about-me h3{
+  padding: 10px;
+}
+#about-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#about-section-info{
+  display: flex;
+  object-fit: cover;
+  padding: 35px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#about-section-info-img > img{
+  height: 320px;
+  border-radius: 50px;
+  
+}
+
+#about-section-info-details{
+  margin: 0 50px;
+}
+#about-section-expedu{
+  display: flex;
+  align-items: flex-start;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.career{
+  width: 250px;
+  margin:  25px 25px 25px 0;
+  padding: 15px ;
+  border: 1px black solid;
+  border-radius: 20px;
+  text-align: center;
+}
+.career-left{
+  margin-right: 65px;
+}
+.career p{
+  font-size: 16px;
+  display: block;
+}
+.career h3{
+  font-size: 16px;
+}
+
